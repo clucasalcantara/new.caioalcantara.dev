@@ -5,6 +5,8 @@ declare module "styled-components" {
     colors: {
       background: string;
       text: string;
+      tag: string;
+      card: string;
     };
   }
 }

@@ -4,7 +4,11 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem;
+  position: sticky;
+  top: 0;
+  padding: 2rem 3rem;
+  text-transform: uppercase;
+  background-color: ${({ theme }) => theme.colors.background};
 `;
 
 const NavItems = styled.div`
@@ -14,9 +18,13 @@ const NavItems = styled.div`
 
 const NavItem = styled.a`
   margin: 0 1rem;
+  font-weight: bold;
+  cursor: pointer;
 `;
 
-const LogoWrapper = styled.div``;
+const LogoWrapper = styled.div`
+  cursor: pointer;
+`;
 
 const NavBar = () => (
   <Nav>
