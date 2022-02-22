@@ -7,6 +7,9 @@ declare module "styled-components" {
       text: string;
       tag: string;
       card: string;
+      lightpink: string;
+      pink: string;
+      darkpink: string;
     };
   }
 }

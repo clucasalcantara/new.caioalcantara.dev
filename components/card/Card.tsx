@@ -10,13 +10,23 @@ export type CardProps = {
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
   margin: 0.5rem;
   padding: 1rem;
   border-radius: 0.4rem;
+  opacity: 0.75;
   background-color: ${({ theme }) => theme.colors.card};
+  max-width: 20rem;
+  max-height: 150px;
+  cursor: pointer;
+  &:hover {
+    background: -webkit-linear-gradient(
+      ${({ theme }) => theme.colors.darkpink},
+      ${({ theme }) => theme.colors.pink}
+    );
+  }
   h3 {
     margin: 0;
     text-wrap: wrap;

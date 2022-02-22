@@ -15,8 +15,7 @@ const TagWrapper = styled.div`
   span {
     text-align: center;
     text-transform: uppercase;
-    font-size: 10pt;
-    font-weight: bold;
+    font-size: 9pt;
   }
 `;
 

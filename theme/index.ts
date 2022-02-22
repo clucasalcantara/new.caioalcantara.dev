@@ -6,6 +6,9 @@ const dark: DefaultTheme = {
     text: "#FFF",
     tag: "#FA4EAB",
     card: "#121212",
+    lightpink: "#FFF2F9",
+    pink: "#FE83C6",
+    darkpink: "#FA4EAB",
   },
 };
 
@@ -15,6 +18,9 @@ const light: DefaultTheme = {
     text: "#000",
     tag: "#FA4EAB",
     card: "#121212",
+    lightpink: "#FFF2F9",
+    pink: "#FE83C6",
+    darkpink: "#FA4EAB",
   },
 };
 

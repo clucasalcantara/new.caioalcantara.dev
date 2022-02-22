@@ -6,13 +6,19 @@ const GlobalStyle = createGlobalStyle`
         color: ${({ theme }) => theme.colors.text};
         padding: 0;
         margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-            Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 
     a {
         color: inherit;
         text-decoration: none;
+        font-weight: 100;
+        cursor: pointer;
+        color: ${({ theme }) => theme.colors.lightpink};
+        &:hover {
+            transition: 0.2s ease-in-out;
+            color: ${({ theme }) => theme.colors.darkpink};
+        }
     }
 
     // * {
