@@ -16,8 +16,12 @@ const Content = styled.section`
 const Wrapper = styled.main`
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   height: 100vh;
+  overflowx: hidden;
+
+  @media (min-width: 768px) {
+    overflow: hidden;
+  }
 `;
 
 const Layout = ({ children }: LayoutProps) => (

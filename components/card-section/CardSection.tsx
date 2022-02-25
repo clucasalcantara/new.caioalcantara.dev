@@ -15,8 +15,12 @@ const SectionTitle = styled.h2`
 
 const CardsWrapper = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 `;
 
 type SectionProps = {
